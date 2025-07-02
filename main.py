@@ -48,7 +48,7 @@ if archivo:
     st.subheader("📋 Resumen estadístico")
     st.dataframe(analisis_estadistico(df_datos))
 
-    def validar_limites_con_leyenda(df_datos, df_limites):
+def validar_limites_con_leyenda(df_datos, df_limites):
     resultados = {}
     leyendas = []
 
